@@ -96,7 +96,7 @@ function animate() {
     circles.push(new Circle(mouse.x, mouse.y, vx, vy, r, -0.5))
 
 
-    texts.push(new Word('Canvas Animation', mouse.x, mouse.y, vx, vy))
+    texts.push(new Word('Canvas is Cool', mouse.x, mouse.y, vx, vy))
 
 
     for (let i = 0; i < circles.length; ++i) {
